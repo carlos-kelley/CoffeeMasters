@@ -13,6 +13,7 @@
 		D32E483B293859D9002320A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32E483A293859D9002320A1 /* Preview Assets.xcassets */; };
 		D32E484429387F01002320A1 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E484329387F01002320A1 /* Offer.swift */; };
 		D32E4846293889F2002320A1 /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E4845293889F2002320A1 /* OffersPage.swift */; };
+		D356E8EB2939AB5500D9BFA6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D356E8EA2939AB5500D9BFA6 /* Alamofire */; };
 		D35AD04829398B750002684D /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AD04729398B750002684D /* MenuPage.swift */; };
 		D35AD04B29398C360002684D /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AD04A29398C360002684D /* OrdersPage.swift */; };
 		D35AD04D29398C3E0002684D /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AD04C29398C3E0002684D /* InfoPage.swift */; };
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D356E8EB2939AB5500D9BFA6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = CoffeeMasters;
+			packageProductDependencies = (
+				D356E8EA2939AB5500D9BFA6 /* Alamofire */,
+			);
 			productName = CoffeeMasters;
 			productReference = D32E4830293859D8002320A1 /* CoffeeMasters.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +176,9 @@
 				Base,
 			);
 			mainGroup = D32E4827293859D8002320A1;
+			packageReferences = (
+				D356E8E92939AB5500D9BFA6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = D32E4831293859D8002320A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeMasters/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UQZJ5L2VJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -367,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeMasters/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UQZJ5L2VJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -409,6 +419,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D356E8E92939AB5500D9BFA6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D356E8EA2939AB5500D9BFA6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D356E8E92939AB5500D9BFA6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D32E4828293859D8002320A1 /* Project object */;
 }
