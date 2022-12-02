@@ -11,6 +11,7 @@ struct DetailsPage: View {
     
     @State var quantity = 1
     var product: Product
+    @EnvironmentObject var cartManager: CartManager
     
     var body: some View {
         ScrollView {
@@ -34,7 +35,7 @@ struct DetailsPage: View {
                 .padding(12)
             
             Button("Add \(quantity) to Cart") {
-                //TODO
+                cartManager.add(product: product, quantity: quantity)
             }
             .padding()
             .frame(width: 250.0)
@@ -48,6 +49,7 @@ struct DetailsPage: View {
     struct DetailsPage_Previews: PreviewProvider {
         static var previews: some View {
             DetailsPage(product: Product(id: 1, name: "Dummy", description: "", price: 1.25, image: ""))
+                .environmentObject(CartManager())
         }
     }
 }
