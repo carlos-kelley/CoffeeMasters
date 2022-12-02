@@ -23,6 +23,11 @@ struct DetailsPage: View {
                 .frame(maxWidth: .infinity)
                 .multilineTextAlignment(.leading)
                 .padding(24)
+            Text(product.description)
+                .frame(maxWidth: .infinity)
+                .multilineTextAlignment(.leading)
+                .padding(24)
+                .foregroundColor(Color("Primary"))
             HStack {
                 Text("$ \(product.price, specifier: "%.2f") ea")
                 Stepper(value: $quantity, in: 1...10) { }
