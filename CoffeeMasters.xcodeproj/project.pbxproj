@@ -22,6 +22,7 @@
 		D35AD056293995680002684D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AD055293995680002684D /* Product.swift */; };
 		D35AD058293999790002684D /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AD057293999790002684D /* MenuManager.swift */; };
 		D35AD05A293999820002684D /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AD059293999820002684D /* CartManager.swift */; };
+		D35AD05C2939A2650002684D /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AD05B2939A2650002684D /* OrderItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		D35AD055293995680002684D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		D35AD057293999790002684D /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
 		D35AD059293999820002684D /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		D35AD05B2939A2650002684D /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				D32E484329387F01002320A1 /* Offer.swift */,
 				D35AD04E29398E8E0002684D /* ProductItem.swift */,
+				D35AD05B2939A2650002684D /* OrderItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				D35AD051293992C30002684D /* DetailsPage.swift in Sources */,
 				D35AD056293995680002684D /* Product.swift in Sources */,
 				D35AD04D29398C3E0002684D /* InfoPage.swift in Sources */,
+				D35AD05C2939A2650002684D /* OrderItem.swift in Sources */,
 				D35AD04F29398E8E0002684D /* ProductItem.swift in Sources */,
 				D32E4836293859D8002320A1 /* ContentView.swift in Sources */,
 				D35AD04B29398C360002684D /* OrdersPage.swift in Sources */,
