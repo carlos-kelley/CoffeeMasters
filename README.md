@@ -19,5 +19,5 @@ Before you get started, make sure you have the following software installed on y
 
 ##Demo
 
-![alt text](img/my-gif.pgif)
+![alt text](img/my-gif.gif)
 
