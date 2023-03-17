@@ -19,7 +19,7 @@ Before you get started, make sure you have the following software installed on y
 
 ## Demo
 
-<img src="img/my-gif.gif" width="300" height="600">
+<img src="img/my-gif.gif" width="200" height="400">
 
 
 
