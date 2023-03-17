@@ -19,11 +19,7 @@ Before you get started, make sure you have the following software installed on y
 
 ## Demo
 
-<video width="360" height="640" controls>
-  <source src="img/app.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+https://user-images.githubusercontent.com/47365649/225929921-1bb38cb1-2207-4349-9e37-341442b037ea.mp4
 
 
 
