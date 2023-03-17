@@ -9,7 +9,7 @@ Built entirely Swift. Order delicious coffee!
 
 ## Prerequisites
 
-Before you get started, make sure you have the following software installed on you computer/phone:
+Before you get started, make sure you have the following software installed on your computer/phone:
 
 - [Xcode] (https://developer.apple.com/xcode/
 
