@@ -17,8 +17,9 @@ Before you get started, make sure you have the following software installed on y
 
 3. Choose your platform and hit Command-R to build and run in simulator.
 
-##Demo
+## Demo
 
-![alt text](img/my-gif.gif =200x400)
+<img src="img/my-gif.gif" width="300" height="600">
+
 
 
